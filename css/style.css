@@ -1,0 +1,64 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    box-shadow: 1px 0px 10px gray;
+}
+:root {
+    --OpenSans-Italic: "OpenSans-Italic";
+    --OpenSans-Variable: "OpenSans-Variable";
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.navbar_logo {
+    margin: 18px 0;
+}
+
+.navbar_start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_lists {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.link {
+    font-family: var(--OpenSans-Variable);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00BAFC;
+    border: 2px solid #00BAFC;
+
+}
+.link2{
+    font-family: var(--OpenSans-Italic);
+font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
