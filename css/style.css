@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url(./fonts.css);
 
 * {
@@ -125,7 +125,6 @@
     top: 240px;
 }
 /* header end */
-=======
 .section {
   padding: 60px 20px;
   background-color: #fff;
@@ -200,4 +199,3 @@
 .btn:hover {
   background-color: #00bafc;
 }
->>>>>>> 3300ea1962ce07ea4bb8d95f428c6032e67a9bba
