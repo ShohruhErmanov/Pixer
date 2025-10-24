@@ -125,6 +125,146 @@
     top: 240px;
 }
 /* header end */
+
+/* service start */
+
+.service__content{
+    margin-top: 0px;
+}
+
+.service__about{
+    margin-top: 56px;
+}
+
+.service__about__span{
+    margin-left: 540px;
+    font-family: var(--OpenSans-Variable) ;
+    font-weight: 700;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+}
+
+.service__about__title{
+    width: 719px;
+    height: 48px;
+    margin-left: 245px;
+    font-family: var(--OpenSans-Variable);
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+}
+
+.service__cards{
+    margin-top: 16px;
+}
+
+.service__card{
+    width: 320px;
+    height: 260px;
+    margin-top: 8px;
+
+    background-color: white;
+    box-shadow: 0px 8px 8px 0px #0000001A;
+}
+
+.service__card__img{
+    margin-top: 24px;
+    margin-left: 58px;
+}
+
+.service__card__span{
+    margin-top: 16px;
+    margin-left: 87px;
+
+    font-family: var(--OpenSans-Variable);
+    font-weight: 700;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.service__card__title{
+    margin-top: 16px;
+
+    font-family: var(--OpenSans-Variable);
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.service__cards{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+}
+
+.service__cards2{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 200px;
+    column-gap: 130px;
+}
+
+.service__cardddd{
+    margin-left: 135px;
+}
+
+.service__order{
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    column-gap: 16px;
+    margin-left: 400px;
+}
+
+.service__order__gp{
+    color: white;
+    padding: 8px 16px;
+    font-family: var(--OpenSans-Variable);
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+
+    background-color: #00BAFC;
+}
+
+.service__order__gp2{
+    color: #00BAFC;
+    font-family: var(--OpenSans-Variable);
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+}
+
+.service__card__span2{
+    margin-left: 95px;
+}
+
+/* service end */
+
 .section {
   padding: 60px 20px;
   background-color: #fff;
